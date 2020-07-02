@@ -1,0 +1,17 @@
+GET http://localhost:3000/event
+
+###
+GET http://localhost:3000/event/5efdea1b44422f4e98883012
+
+###
+POST http://localhost:3000/event
+Content-Type: application/json
+
+{
+    "firstName": "sony",
+    "lastName": "peung",
+    "email": "sony.peung@test.fr"
+}
+
+###
+DELETE http://localhost:3000/event/5efdea1b44422f4e98883012
