@@ -11,11 +11,7 @@ const schema = new mongoose.Schema({
     },
     email: {
         type: String,
-        required: true,
-        validate: {
-            validator: () => Promise.resolve(true),
-            message: 'Email validation failed'
-          }
+        required: true
     },
     eventDate: {
         type: Date,
